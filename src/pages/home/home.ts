@@ -68,7 +68,7 @@ export class HomePage {
       console.log('Async operation has ended');
       this.animals = ANIMALS.slice(0);
       refresher.complete();
-    }, 1500)
+    }, 3000);
   }
 
   // Reorder list
