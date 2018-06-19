@@ -31,7 +31,7 @@ export class HomePage {
     }
 
     console.log(animal);
-
+    
     this.audio.src = animal.audio;
     this.audio.load();
     this.audio.play();
